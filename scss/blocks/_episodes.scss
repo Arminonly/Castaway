@@ -1,0 +1,111 @@
+.episodes {
+  width: 1400px;
+  height: 2088px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 93px;
+  &__title {
+    width: 1300px;
+    height: 99px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+
+    h2 .title {
+      width: 513px;
+      color: $color-main;
+      line-height: 79.2px;
+      letter-spacing: 2.88px;
+      padding-top: 7px;
+      padding-bottom: 26px;
+    }
+    button {
+      width: 178px;
+      height: 51px;
+      border-radius: 6px;
+      background: $color-active;
+      color: $color-main;
+    }
+  }
+
+  &__content {
+    display: flex;
+    width: 1300px;
+    height: 1690px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+
+    .card {
+      width: 1300px;
+      height: 545px;
+      border-radius: 32px;
+      background: $bg-card;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      &__row {
+        display: flex;
+        width: 100%;
+        height: 465px;
+        gap: 53px;
+        flex-shrink: 0;
+      }
+      .card__row-descr {
+        position: relative;
+        width: 778px;
+        height: 465px;
+        padding-top: 8px;
+        display: flex;
+        flex-direction: column;
+        font-style: $fs-main;
+        font-weight: $fw-main;
+        line-height: 27px;
+        .wide {
+          width: 136px;
+          height: 27px;
+          font-size: 17px;
+          flex-shrink: 0;
+        }
+
+        h5 {
+          width: 73px;
+          height: 27px;
+          padding: 0 16px;
+          flex-shrink: 1;
+          border-radius: 6px;
+          background: $bg-main;
+          color: $color-secondary;
+          font-size: 18px;
+          margin-bottom: 50px;
+        }
+
+        span {
+          width: 82px;
+          height: 27px;
+          color: $color-active;
+          font-size: 17px;
+          margin-bottom: 17px;
+        }
+        h3.title {
+          width: 701px;
+        }
+        p.text {
+          margin-bottom: 18px;
+        }
+       button{
+        width: 208px;
+        height: 51px;
+        border-radius: 6px;
+        background: $color-active;
+        a{
+          color: $color-main;
+        }
+       }
+      }
+    }
+  }
+}

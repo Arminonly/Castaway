@@ -1,0 +1,41 @@
+.header {
+  max-width: 100%;
+  margin: 26px 0px;
+
+  &__row {
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+
+    //! .header__logo
+    &-logo {
+      max-width: 160px;
+      max-height: 33px;
+    }
+
+    //! .header__nav
+    &-nav {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      width: 403px;
+      height: 67px;
+      column-gap: 40px;
+      padding: 20px;
+
+      transition: color .2 ease-in;
+      li a {
+        color: white;
+      }
+      li a:hover {
+        color: $color-active;
+
+      }
+      li a.active {
+        color: $color-active;
+      }
+    }
+  }
+}

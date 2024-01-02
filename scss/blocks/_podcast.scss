@@ -1,0 +1,75 @@
+.podcast {
+  max-width: 1400px;
+  height: 913px;
+  //   background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+  //! .podcast__row
+  &__row {
+    display: inline-flex;
+    padding-right: 60px;
+    align-items: center;
+    gap: 60px;
+  }
+
+  //! .podcast__row-img
+  &__row-img {
+    position: relative;
+    width: 650px;
+    height: 873px;
+    z-index: 1;
+  }
+
+  //! .podcast__row-descr
+  &__row-descr {
+    max-width: 530px;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    .descr-title {
+      position: relative;
+      width: 526px;
+      color: $color-main;
+      font-size: 70px;
+      font-style: $fs-main;
+      font-weight: $fw-main;
+      line-height: 88px;
+      letter-spacing: 3.2px;
+
+      h1 span {
+        font-size: 80px;
+        font-weight: 700;
+      }
+    }
+
+    .descr-sprite {
+      max-width: 289px;
+      height: 72px;
+      margin-top: 74px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-left: 22px;
+
+      p {
+        color: $color-main;
+        font-size: 15px;
+        line-height: 24px;
+      }
+
+      .sprites {
+        display: inline-flex;
+        height: 32px;
+        padding-right: 17px;
+        align-items: flex-start;
+        gap: 17px;
+        flex-shrink: 0;
+      }
+    }
+  }
+}

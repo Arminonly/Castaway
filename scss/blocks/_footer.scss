@@ -1,0 +1,67 @@
+.footer {
+  width: 1400px;
+  height: 438px;
+  color: $color-main;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //! .footer__row
+  &__row {
+    display: flex;
+    width: 1300px;
+    padding: 0px 0.031px 16px 0px;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 16px;
+    .descr {
+      display: flex;
+      width: 447.141px;
+      height: 222px;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: start;
+      gap: 19.984px;
+      &__socials {
+        display: flex;
+        gap: 10px;
+        width: 24px;
+        height: 24px;
+      }
+    }
+    .nav {
+      display: flex;
+      width: 178.844px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+
+      &__list a {
+        color: $color-secondary;
+        font-size: 17px;
+        line-height: 27px;
+      }
+    }
+    .menu {
+      display: flex;
+      width: 178.844px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+
+      &__list a {
+        color: $color-secondary;
+        font-size: 18px;
+        line-height: 27px;
+        gap: 10px;
+      }
+    }
+    .sprites {
+      display: flex;
+      width: 447.141px;
+      height: 32px;
+      align-items: flex-start;
+      gap: 17px;
+    }
+  }
+}

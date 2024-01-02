@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Montserrat+Alternates:wght@500;600;700&display=swap');
+
+// font-family: 'DM Sans', sans-serif;
+// font-family: 'Montserrat Alternates', sans-serif;
+.wrapper {
+  font-family: $ff-main;
+  background-color: $bg-main;
+  max-width: 1440px;
+  //  height:100vh;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.none {
+  display: none;
+}
+.active {
+  color: $color-active;
+}
+
+.title {
+  color: $color-main;
+  font-style: $fs-main;
+  font-weight: $fw-main;
+  font-size: 64px;
+  line-height: 70.4px;
+  letter-spacing: 2.88px;
+}
+.btn {
+  width: 208px;
+  height: 51px;
+  border-radius: 6px;
+  background: $color-active;
+
+}
+.text {
+  color: $color-secondary;
+  width: 757px;
+  height:100px;
+  font-size: 22px;
+  font-style: $fs-main;
+  font-weight: $fw-main;
+  line-height: 33px;
+}
+
+.bottom{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}

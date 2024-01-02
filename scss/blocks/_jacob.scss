@@ -1,0 +1,56 @@
+.jacob {
+  width: 1400px;
+  height: 943px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin: 0 auto;
+
+  //! .jacob__row
+  &__row {
+    width: 1300px;
+    height: 743px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    &-item {
+      justify-content: start;
+      .descr {
+        width: 590px;
+        height: 448px;
+        display: flex;
+        flex-direction: column;
+        &__logo {
+          width: 112px;
+          height: 112px;
+          margin-bottom: 20px;
+        }
+        &__label {
+          width: 126px;
+          color: $color-active;
+          font-size: 18px;
+          line-height: 27px;
+        }
+        &__title {
+          width: 496px;
+          color: $color-main;
+          font-size: 65px;
+          line-height: 79.2px;
+          letter-spacing: 2.88px;
+          margin-bottom: 28px;
+        }
+        &__text {
+          width: 556px;
+          color: $color-secondary;
+          font-size: 22px;
+          line-height: 33px;
+        }
+        &__text p:first-child {
+          margin-bottom: 33px;
+        }
+      }
+    }
+  }
+}
